@@ -3,76 +3,163 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>All Services - Handige Hande</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handige Hande - Services</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet" />
+
 </head>
 
 <body class="bg-gray-50">
 
+    <!-- Modern Navbar & Hero -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <a href="/" class="text-2xl font-bold text-gray-900">Handige Hande</a>
             <nav class="space-x-6 hidden md:block">
-                <a href="index.html" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
-                <a href="all-services.html" class="text-blue-600 font-semibold">Services</a>
-                <a href="https://wa.me/27715526497?text=Hello,%20Handige%20Hande%2C%20I'm%20interested%20in%20your%20services!"
-                    target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-blue-600 font-medium"
-                    aria-label="Chat with us on WhatsApp">
-                    Contact
-                </a>
+                <a href="all-services.html" class="text-gray-700 hover:text-blue-600 font-medium">Services</a>
+                <a href="#extra-help" class="text-gray-700 hover:text-blue-600 font-medium">Help</a>
+                <a href="reviews.html" class="text-gray-700 hover:text-blue-600 font-medium">Reviews</a>
+                <a href="#social-media" class="text-gray-700 hover:text-blue-600 font-medium">Social</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
             </nav>
-
+            <a href="https://wa.me/27715526497?text=Hello,%20Handige%20Hande%2C%20I'm%20interested%20in%20your%20services!"
+                class="bg-green-500 text-white px-4 py-2 rounded-md font-semibold hover:bg-green-600 text-sm md:text-base">WhatsApp
+                Us</a>
         </div>
     </header>
 
-    <main class="container mx-auto px-4 py-12">
-        <h1 class="text-4xl font-bold mb-10 text-center text-gray-800">All Our Services</h1>
+    <section class="bg-blue-50 text-center py-4">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-800">Handige Hande</h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-6">When you need a quick hand!</p>
+            <a href="all-services.html"
+                class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-blue-700 transition">View
+                Services</a>
+        </div>
+    </section>
 
-        <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <!-- Example service card -->
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <img src="spanner.png" alt="Fix or Repair" class="mx-auto w-24 h-24 mb-6" />
-                <h3 class="text-2xl font-semibold mb-3 text-gray-800">Fix or Repair</h3>
-                <p class="text-gray-600 mb-4">We build what’s needed and fix what’s not working.</p>
-                <a href="projects.html" class="text-blue-600 hover:underline font-medium">Browse our work</a>
-            </div>
-
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <img src="plant-pot.png" alt="Gardening" class="mx-auto w-24 h-24 mb-6" />
-                <h3 class="text-2xl font-semibold mb-3 text-gray-800">Gardening</h3>
-                <p class="text-gray-600 mb-4">Raking, cutting grass, and watering plants to keep your garden beautiful.
-                </p>
-                <a href="projects.html" class="text-blue-600 hover:underline font-medium">Browse our work</a>
-            </div>
-
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <img src="paint-roll.png" alt="Painting" class="mx-auto w-24 h-24 mb-6" />
-                <h3 class="text-2xl font-semibold mb-3 text-gray-800">Painting</h3>
-                <p class="text-gray-600 mb-4">Quality painting for walls, fences, and touch-ups to refresh your space.
-                </p>
-                <a href="projects.html" class="text-blue-600 hover:underline font-medium">Browse our work</a>
-            </div>
+    <div class="bg-yellow-100 text-yellow-800 text-center py-1 text-sm font-medium">
+        <strong>Note:</strong> We are 17-year-old students and only available to work on Saturdays.
+    </div>
 
 
-            <!-- Add more service cards as needed -->
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <img src="cleaning.png" alt="Cleaning" class="mx-auto w-24 h-24 mb-6" />
-                <h3 class="text-2xl font-semibold mb-3 text-gray-800">Cleaning</h3>
-                <p class="text-gray-600">Professional home and office cleaning services to keep your space spotless.</p>
-            </div>
 
-            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                <img src="moving-box.png" alt="Moving Help" class="mx-auto w-24 h-24 mb-6" />
-                <h3 class="text-2xl font-semibold mb-3 text-gray-800">Moving Help</h3>
-                <p class="text-gray-600">Assistance with packing and moving your belongings safely and quickly.</p>
+    <section id="services">
+        <div class="container">
+            <section class="py-1 bg-white">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl font-bold text-center mb-4 text-gray-800">Our Services</h2>
+                    <div class="grid gap-8 md:grid-cols-3">
+                        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <img src="spanner.png" alt="Fix or Repair" class="mx-auto w-24 h-24 mb-6" />
+                            <h3 class="text-2xl font-semibold mb-3 text-gray-800">Fix or Repair</h3>
+                            <p class="text-gray-600 mb-4">We build what’s needed and fix what’s not working.</p>
+                            <a href="projects.html" class="text-blue-600 hover:underline font-medium">Browse our
+                                work</a>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <img src="plant-pot.png" alt="Gardening" class="mx-auto w-24 h-24 mb-6" />
+                            <h3 class="text-2xl font-semibold mb-3 text-gray-800">Gardening</h3>
+                            <p class="text-gray-600 mb-4">Raking, cutting grass, and watering plants to keep your garden
+                                beautiful.</p>
+                            <a href="projects.html" class="text-blue-600 hover:underline font-medium">Browse our
+                                work</a>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                            <img src="paint-roll.png" alt="Painting" class="mx-auto w-24 h-24 mb-6" />
+                            <h3 class="text-2xl font-semibold mb-3 text-gray-800">Painting</h3>
+                            <p class="text-gray-600 mb-4">Quality painting for walls, fences, and touch-ups to refresh
+                                your space.</p>
+                            <a href="projects.html" class="text-blue-600 hover:underline font-medium">Browse our
+                                work</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="extra-help">
+        <p>Need a quick hand or a job not listed? <strong>Just ask — we're happy to help!</strong></p>
+    </section>
+
+    <section id="about" class="py-4 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">About Us</h2>
+            <div class="grid gap-10 md:grid-cols-2">
+
+                <!-- Armand -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="Armand.jpg" alt="Armand photo"
+                        class="w-32 h-32 rounded-full mx-auto mb-4 object-cover shadow" />
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Hi, my name is Armand</h3>
+                    <p class="text-gray-600">
+                        I am a 17-year-old student passionate about technology and creative projects. On Saturdays, I
+                        dedicate
+                        my time to helping Handige Hande deliver the best services possible.
+                    </p>
+                </div>
+
+                <!-- Albert -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="Albert.jpg" alt="Albert photo"
+                        class="w-32 h-32 rounded-full mx-auto mb-4 object-cover shadow" />
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Hi, my name is Albert</h3>
+                    <p class="text-gray-600">
+                        I am also 17 and a student. I love coding, chess, and hustling new ideas. Together with Armand,
+                        we work
+                        hard every Saturday to bring you great service.
+                    </p>
+                </div>
+
             </div>
         </div>
-    </main>
+    </section>
 
-    <footer class="bg-white text-center py-6 mt-16 shadow-inner">
-        <p class="text-gray-600">&copy; 2025 Handige Hande. All rights reserved.</p>
+
+
+    <section id="testimonials" class="container">
+        <h2>What People Say</h2>
+        <div class="testimonial">
+            <p>"Ons speel lekker skaak en hulle werk mooi" – Roel Stolper.</p>
+        </div>
+    </section>
+
+    <section id="social-media" style="text-align: center; margin: 40px 0;">
+        <a href="https://facebook.com/handigehande" target="_blank" aria-label="Facebook" class="social-icon">
+            <i class='bx bxl-facebook-square'></i>
+        </a>
+        <a href="https://instagram.com/handigehande" target="_blank" aria-label="Instagram" class="social-icon">
+            <i class='bx bxl-instagram'></i>
+        </a>
+        <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter" class="social-icon">
+            <i class='bx bxl-twitter'></i>
+        </a>
+        <a href="https://www.youtube.com/@handigehande" target=" _blank" aria-label="LinkedIn" class="social-icon">
+            <i class='bx bxl-youtube'></i>
+        </a>
+    </section>
+
+
+
+
+    <a href="https://wa.me/27715526497?text=Hello,%20Handige%20Hande%2C%20I'm%20interested%20in%20your%20services!"
+        class="whatsapp-button" target="_blank" aria-label="Chat with us on WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+    </a>
+
+    <footer>
+        <p>&copy; 2025 Handige Hande. All rights reserved.</p>
     </footer>
 
 </body>
