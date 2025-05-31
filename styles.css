@@ -92,9 +92,8 @@ body {
     text-align: center;
 }
 
-
 .button {
-    padding: 10px 20px;
+    padding: 5px 20px;
     background-color: var(--secondary);
     color: white;
     text-decoration: none;
@@ -107,7 +106,7 @@ body {
 }
 
 #services {
-    padding: 60px 0;
+    padding: 5px 0;
     background-color: white;
     text-align: center;
 }
@@ -117,7 +116,7 @@ body {
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .service-card {
@@ -139,24 +138,31 @@ body {
 .service-card img {
     width: 80px;
     height: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
+    /* reduced gap */
     object-fit: contain;
 }
 
 .service-card h3 {
     font-size: 1.5rem;
     margin-bottom: 12px;
-    color: #1f2937; /* dark grayish-blue */
+    color: #1f2937;
+    /* dark grayish-blue */
 }
 
 .service-card p {
-    color: #6b7280; /* medium gray */
+    color: #6b7280;
+    /* medium gray */
     font-size: 1rem;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    /* reduced gap */
+    margin-top: 12px;
+    /* reduced gap */
 }
 
 .service-card a {
-    color: #2563eb; /* blue-600 */
+    color: #2563eb;
+    /* blue-600 */
     font-weight: 500;
     text-decoration: none;
     transition: color 0.2s ease;
@@ -164,11 +170,9 @@ body {
 
 .service-card a:hover {
     text-decoration: underline;
-    color: #1d4ed8; /* blue-700 */
+    color: #1d4ed8;
+    /* blue-700 */
 }
-
-
-
 
 #extra-help {
     max-width: 900px;
@@ -198,7 +202,7 @@ body {
 
 .about-box {
     background-color: #f5f5f5;
-    padding: 20px;
+    padding: 10px;
     border-radius: 15px;
     max-width: 350px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -213,24 +217,29 @@ body {
 }
 
 .about-box h2 {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    /* reduced gap */
 }
 
-.about-box p {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 15px;
-}
-
-.aboutUSimg {
+.about-box img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #25D366;
     /* WhatsApp green border */
+    margin-bottom: 24px;
+    /* reduced gap */
 }
 
+.about-box p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    /* reduced gap */
+    margin-top: 12px;
+    /* reduced gap */
+}
 
 .team-images {
     display: flex;
@@ -247,7 +256,6 @@ body {
     font-style: italic;
     color: #33691e;
 }
-
 
 .whatsapp-button {
     position: fixed;
@@ -269,7 +277,6 @@ body {
 .whatsapp-button img:hover {
     transform: scale(1.1);
 }
-
 
 footer {
     background-color: #333;
