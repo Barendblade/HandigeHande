@@ -175,7 +175,7 @@ body {
 }
 
 #extra-help {
-    max-width: 900px;
+    max-width: 100%;
     margin: 30px auto;
     background-color: #e0f2f1;
     /* soft teal */
