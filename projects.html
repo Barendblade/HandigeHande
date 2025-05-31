@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work | Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css"> <!-- Link to your main CSS -->
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f9fafb;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #6b7280;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-gray-900">Handige Hande</a>
+            <nav class="space-x-6 hidden md:block">
+                <a href="index.html" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+                <a href="all-services.html" class="text-blue-600 font-semibold">Services</a>
+                <a href="https://wa.me/27715526497?text=Hello,%20Handige%20Hande%2C%20I'm%20interested%20in%20your%20services!"
+                    target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-blue-600 font-medium"
+                    aria-label="Chat with us on WhatsApp">
+                    Contact
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Our Projects</h1>
+        <p class="text-gray-600 text-lg mb-10">Here’s a look at some of the work we’ve done — from fixing things to
+            gardening and painting.</p>
+
+        <div class="gallery">
+            <!-- Replace these sample images with your actual project photos -->
+            <img src="shopping_trolley.jpg" alt="Repair Project">
+            <img src="swing.jpg" alt="Gardening Project">
+            <img src="projects/painting1.jpg" alt="Painting Project">
+            <img src="projects/repair2.jpg" alt="Repair Project">
+            <img src="projects/gardening2.jpg" alt="Gardening Project">
+            <img src="projects/painting2.jpg" alt="Painting Project">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Your Business Name. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
